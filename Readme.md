@@ -1,3 +1,3 @@
-bash ./install.sh
-docker-compose up -d ubuntu
-docker-compose run ubuntu sh
+bash ./install.sh <br>
+docker-compose up -d ubuntu <br>
+docker-compose run ubuntu sh <br>
