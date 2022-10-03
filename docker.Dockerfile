@@ -5,6 +5,7 @@ MAINTAINER Batuhan Sen <sinyordes@protonmail.com>
 ENV TERM xt erm
 
 ARG EXTS="curl \
+          nginx \
           screen \
           git"
 RUN apt update -y
