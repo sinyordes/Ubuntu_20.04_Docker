@@ -1,0 +1,12 @@
+version: "3"
+services:
+  ubuntu:
+    image: sd/ubuntu
+    container_name: sd_ubuntu
+    volumes:
+      - ${PRJ_PATH}:/nStake
+    extra_hosts:
+      - "local.sinyordes.xyz:127.0.0.1"
+    ports:
+      - 443:443
+      - 80:80
